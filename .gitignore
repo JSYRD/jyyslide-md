@@ -1,6 +1,7 @@
 .venv/
+venv/
 
-.vscode/launch.json
+.vscode
 
 **/.mypy_cache/
 
