@@ -2,15 +2,18 @@ import argparse
 import subprocess
 from functools import partial
 import sys
+import os
 import logging
 from livereload import Server
 from pathlib import Path
 
 def build(filepath: str):
     logging.info("Rebuilding...")
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    build_script = os.path.join(current_dir, "build.py")
     try:
         result = subprocess.run(
-            [sys.executable, "build.py", filepath],
+            [sys.executable, build_script, filepath],
             capture_output=True,
             text=True
         )
