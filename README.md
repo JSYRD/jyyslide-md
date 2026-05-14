@@ -16,8 +16,7 @@
 一款通过简约的Mardown方言生成具有[南大蒋炎岩老师幻灯片](http://jyywiki.cn/OS/2022/slides/1.slides#/)风格的Web幻灯片转换工具  
 准确的说是一款基于Reveal.js的定制主题Web幻灯片框架（类似reveal-md，不过定制主题和蒋老师的一样）。
 
-[Background](#background) | [Install](#install) | [Usage](#usage) \
-| [Grammer](#grammer) | [Example](#example) | [Develop](#develop) | [Acknowledgement](#acknowledgement) | [License](#license)
+[Background](#background) | [Install](#install) | [Usage](#usage) | [Grammer](#grammer) | [Example](#example) | [Develop](#develop) | [Acknowledgement](#acknowledgement) | [License](#license)
 
 ## Background
 
@@ -104,7 +103,7 @@ options:
 
 + PDF Export: [Manual](https://revealjs.com/pdf-export/)
 
-### Grammer
+### Grammar
 
 [教程](https://zweix123.github.io/jyyslide-md/)：在这里可以结合效果来说明语法（**推荐**）
 >这个幻灯片就是用jyyslide-md制作而成的
